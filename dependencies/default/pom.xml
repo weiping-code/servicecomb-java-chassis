@@ -96,7 +96,7 @@
     <snakeyaml.version>1.30</snakeyaml.version>
     <spectator.version>0.83.0</spectator.version>
     <spring.version>5.3.20</spring.version>
-    <spring-boot.version>2.6.7</spring-boot.version>
+    <spring-boot.version>2.7.0</spring-boot.version>
     <swagger.version>1.6.6</swagger.version>
     <swagger2markup.version>1.3.3</swagger2markup.version>
     <tcnetty.version>2.0.52.Final</tcnetty.version>
