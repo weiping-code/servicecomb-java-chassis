@@ -33,7 +33,7 @@
     <!-- Dependency versions -->
     <activation.version>1.2.2</activation.version>
     <archaius.version>0.7.7</archaius.version>
-    <asciidoctorj.version>2.5.3</asciidoctorj.version>
+    <asciidoctorj.version>2.5.4</asciidoctorj.version>
     <aspectj.version>1.9.9.1</aspectj.version>
     <awaitility.version>4.2.0</awaitility.version>
     <assertj.version>3.22.0</assertj.version>
@@ -79,6 +79,7 @@
     <maven-model.version>3.8.5</maven-model.version>
     <micrometer.version>1.9.0</micrometer.version>
     <nacos-client.version>2.1.0</nacos-client.version>
+    <pegdown.version>1.6.0</pegdown.version>
     <prometheus.version>0.15.0</prometheus.version>
     <protobuf.version>3.20.1</protobuf.version>
     <protostuff.version>1.8.0</protostuff.version>
@@ -345,6 +346,13 @@
             <artifactId>commons-collections</artifactId>
           </exclusion>
         </exclusions>
+      </dependency>
+
+      <dependency>
+        <groupId>org.pegdown</groupId>
+        <artifactId>pegdown</artifactId>
+        <version>${pegdown.version}</version>
+        <scope>runtime</scope>
       </dependency>
 
       <dependency>
